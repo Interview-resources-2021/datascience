@@ -1,5 +1,6 @@
 # Data Science Portfolio and Python Machine Learning
 
+<<<<<<< HEAD
 
 #### To do an end-to-end Machine Learning project we need to do the following steps
 
@@ -11,6 +12,20 @@
 6. Fine-tune our model by tuning hyper-parameters
 7. Present your solution to the team.
 8. Launch, monitor, and maintain your system.
+=======
+This is a repository of the projects I attempt or currently working on. It is updated regularly.The projects are mostly written in Jupyter Notebooks but sometimes I use VIM for quick edits.
+
+The idea is to get exposure to various domains of datascience and statistics modelling techniques.
+
+General pipeline flow is 
+
+* Finding and Cleaning Data
+* Data Analysis
+* Data Visualization
+* Deriving Conclusion
+
+ Most of the code is inspired from Hands on Data Science by Frank Kane but I would add other exercises here as well which I explore on online blogs, internet articles and videos.
+>>>>>>> 6330a37b69d088d94816cbb77673a7c8ef414e47
 
 
 # Installation
@@ -19,9 +34,16 @@ First, you will need to install [git](https://git-scm.com/), if you don't have i
 
 Next, clone this repository by opening a terminal and typing the following commands:
 
+<<<<<<< HEAD
     $ cd $HOME  # or any other development directory you prefer
     $ git clone https://github.com/gurupratap-matharu/Data-Science-Projects
 
+=======
+ 
+input_file = files are part of the repository. If you clone you can download and add the relative paths.
+
+```
+>>>>>>> 6330a37b69d088d94816cbb77673a7c8ef414e47
 
 If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries 
 
