@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e24631f54b449bab287aaafed4720ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6e24631f54b449bab287aaafed4720ce" ></div>
+        
+</body>
+<script>    
+    
+            var map_6e24631f54b449bab287aaafed4720ce = L.map(
+                "map_6e24631f54b449bab287aaafed4720ce",
+                {
+                    center: [54.0, 15.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b0645e1c675641a7a4662370e4ca8e72 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+            var marker_bf3dc08ef0db42a3b4462057febbc067 = L.marker(
+                [48.8468997, 2.35744865311587],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_6863172ff9784b18bf83448918d70612 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9119d096853d47fc9d5b7d66d507579a = $(`<div id="html_9119d096853d47fc9d5b7d66d507579a" style="width: 100.0%; height: 100.0%;">Sorbonne University</div>`)[0];
+            popup_6863172ff9784b18bf83448918d70612.setContent(html_9119d096853d47fc9d5b7d66d507579a);
+        
+
+        marker_bf3dc08ef0db42a3b4462057febbc067.bindPopup(popup_6863172ff9784b18bf83448918d70612)
+        ;
+
+        
+    
+    
+            var marker_b29d08bdc19040bcb94bffac909937f6 = L.marker(
+                [52.3793131, -1.5604252],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_87b321ace972429392c460c94e74c79e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d48883de9cb49c8b56a86a2f16455ea = $(`<div id="html_5d48883de9cb49c8b56a86a2f16455ea" style="width: 100.0%; height: 100.0%;">University of Warwick</div>`)[0];
+            popup_87b321ace972429392c460c94e74c79e.setContent(html_5d48883de9cb49c8b56a86a2f16455ea);
+        
+
+        marker_b29d08bdc19040bcb94bffac909937f6.bindPopup(popup_87b321ace972429392c460c94e74c79e)
+        ;
+
+        
+    
+    
+            var marker_95a411b014b44c00b2ebc953ef08593c = L.marker(
+                [48.8472458, 2.34909643900866],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_3686a0b5e47e47a79ad498b61fcb5bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc76aadbd8474d3c81b76f4335f6b293 = $(`<div id="html_cc76aadbd8474d3c81b76f4335f6b293" style="width: 100.0%; height: 100.0%;">École Polytechnique</div>`)[0];
+            popup_3686a0b5e47e47a79ad498b61fcb5bd7.setContent(html_cc76aadbd8474d3c81b76f4335f6b293);
+        
+
+        marker_95a411b014b44c00b2ebc953ef08593c.bindPopup(popup_3686a0b5e47e47a79ad498b61fcb5bd7)
+        ;
+
+        
+    
+    
+            var marker_3022116c397940f4bfb0ca7e48f256a7 = L.marker(
+                [43.7206078, 10.4026444],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_7ed60f990912420f970796c831821184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68c96ad395574fd28ee2663ec62dcfbe = $(`<div id="html_68c96ad395574fd28ee2663ec62dcfbe" style="width: 100.0%; height: 100.0%;">Scuola Superiore Sant’Anna</div>`)[0];
+            popup_7ed60f990912420f970796c831821184.setContent(html_68c96ad395574fd28ee2663ec62dcfbe);
+        
+
+        marker_3022116c397940f4bfb0ca7e48f256a7.bindPopup(popup_7ed60f990912420f970796c831821184)
+        ;
+
+        
+    
+    
+            var marker_d26a389319c548bbb1dd22fb47702dfc = L.marker(
+                [52.52585125, 13.3777395779327],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_370f453c34fe4b9597b5971ed3c8088c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047eda3541734b69a7d1b258d29a8326 = $(`<div id="html_047eda3541734b69a7d1b258d29a8326" style="width: 100.0%; height: 100.0%;">Charité - Universitätsmedizin Berlin</div>`)[0];
+            popup_370f453c34fe4b9597b5971ed3c8088c.setContent(html_047eda3541734b69a7d1b258d29a8326);
+        
+
+        marker_d26a389319c548bbb1dd22fb47702dfc.bindPopup(popup_370f453c34fe4b9597b5971ed3c8088c)
+        ;
+
+        
+    
+    
+            var marker_69b92476208c4fb4904e55cc4bc39819 = L.marker(
+                [46.5225695, 6.58095049765429],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_35943c5833e3498d819537bef2667b60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e651ebe3511b4c2bb5b387a1ac2c5596 = $(`<div id="html_e651ebe3511b4c2bb5b387a1ac2c5596" style="width: 100.0%; height: 100.0%;">University of Lausanne</div>`)[0];
+            popup_35943c5833e3498d819537bef2667b60.setContent(html_e651ebe3511b4c2bb5b387a1ac2c5596);
+        
+
+        marker_69b92476208c4fb4904e55cc4bc39819.bindPopup(popup_35943c5833e3498d819537bef2667b60)
+        ;
+
+        
+    
+    
+            var marker_33c3d6045b5041e290218068a6e8df15 = L.marker(
+                [51.1844033, 4.42011660729565],
+                {}
+            ).addTo(map_6e24631f54b449bab287aaafed4720ce);
+        
+    
+        var popup_08a1c60deea1444dbe7f2976045f953e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_843edff58d704428b14c227b82429ef3 = $(`<div id="html_843edff58d704428b14c227b82429ef3" style="width: 100.0%; height: 100.0%;">University of Antwerp</div>`)[0];
+            popup_08a1c60deea1444dbe7f2976045f953e.setContent(html_843edff58d704428b14c227b82429ef3);
+        
+
+        marker_33c3d6045b5041e290218068a6e8df15.bindPopup(popup_08a1c60deea1444dbe7f2976045f953e)
+        ;
+
+        
+    
+</script>
