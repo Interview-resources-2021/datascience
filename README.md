@@ -3,10 +3,6 @@
 
 <img src="https://github.com/gurupratap-matharu/midware/blob/master/staticfiles/img/hero.jpg" alt="drawing" width="1920"/>
 
-## LIVE
-
-<https://midware.herokuapp.com/api/v1/>
-
 ### Heatmaps
 
 <img src="https://github.com/gurupratap-matharu/datascience/blob/master/assets/hm1.png" alt="drawing" width="1920"/>
