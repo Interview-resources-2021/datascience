@@ -1,3 +1,5 @@
+Blog posts: https://medium.com/@gurupratap.matharu/probability-for-machine-learning-424a0a4e8ab4
+
 
 <h1 align="center">Awesome Datascience - Machine Learning</h1>
 
